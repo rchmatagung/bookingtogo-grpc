@@ -36,6 +36,7 @@ message AutoCompleteRequest {
     int32 limit = 2;
 }
 
+
 service MasterHotel {
     rpc GetAutoComplete (AutoCompleteRequest) returns (AutoComplete) {}
 }
