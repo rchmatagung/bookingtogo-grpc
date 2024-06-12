@@ -1,4 +1,4 @@
-module bookingtogo-grpc
+module github.com/rchmatagung/bookingtogo-grpc
 
 go 1.22.4
 
